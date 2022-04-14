@@ -24,3 +24,8 @@ Para utilizar essa dependência, siga o exemplo abaixo:
     $test = new Generate($conn, $query, 'arquivosExel/', ['name of user', 'id of user']);
     $test->generateExel();  
 ´´´
+
+
+
+Image of result:
+![exemple](https://user-images.githubusercontent.com/81570051/163396714-2fb34f7b-7ea3-442d-8a7f-9e61c2d06a3c.JPG)
