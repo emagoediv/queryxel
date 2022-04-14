@@ -11,9 +11,11 @@ class Generate extends  Exelrel
         $result = $this->conn->query($this->sqlQuery);
         $countFileds = $result->columnCount();
         $result = $result->fetchAll(\PDO::FETCH_NUM);
-        $this->certificateDir($this->dir);
+
+        $this->certificateDir($this->dir.date('Hms').'.csv');
         $fileExel = fopen($this->dir.date('Hms').'.csv', 'c+');
         fputcsv($fileExel, $this->header, ';');
+
         foreach ($result as $rowValue) {
             $this->arrayExel = [];
             for ($i = 0; $i < $countFileds; $i++) {
@@ -35,7 +37,7 @@ class Generate extends  Exelrel
      *  caso não exista, crie
      */
     public function certificateDir($directory){
-        $directory = dirname($this->dir);
+        $directory = dirname($directory);
         if (!is_dir($directory))
         {
             mkdir($directory, 0755, true);
