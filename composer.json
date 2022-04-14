@@ -1,6 +1,7 @@
 {
   "name": "emagoediv/queryxel",
   "description": "Gerador de relatório com consultas sql",
+  "type": "library",
   "minimum-stability": "beta",
   "license": "MIT",
   "authors": [
