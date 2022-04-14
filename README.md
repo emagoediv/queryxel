@@ -41,13 +41,13 @@ Image of result:
 
 ## Params:
 
--- PDO $ObjPDOConection (Your object PDO),
+- PDO $ObjPDOConection (Your object PDO),
 
 
--- string $sqlQuery (Your querie),
+- string $sqlQuery (Your querie),
 
 
--- string $dir (Your diretory of save files),
+- string $dir (Your diretory of save files),
 
 
--- array $header (First row of your queries)
+- array $header (First row of your queries)
