@@ -1,12 +1,12 @@
-#Gere arquivos exel com o resultado de consulta no banco de dados de forma rápida
+# Gere arquivos exel com o resultado de consulta no banco de dados de forma rápida
 
-#Generate exel files with the query result in the database quickly
-
-
-##Utilização:
+# Generate exel files with the query result in the database quickly
 
 
-##To use:
+## Utilização:
+
+
+## To use:
 
 
 Para utilizar essa dependência, siga o exemplo abaixo:
