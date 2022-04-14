@@ -1,6 +1,6 @@
 {
   "name": "emagoediv/queryxel",
-  "description": "Gerador de arquivo exel com consultas sql -------------------------- Exel file generator with sql queries ",
+  "description": "Gerador de arquivo exel com consultas sql ------------------------------------------------- Exel file generator with sql queries ",
   "type": "library",
   "minimum-stability": "beta",
   "license": "MIT",
