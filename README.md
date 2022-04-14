@@ -23,7 +23,7 @@ Para utilizar essa dependência, siga o exemplo abaixo:
     $query = "SELECT nameUser, userId FROM users";
     $test = new Generate($conn, $query, 'arquivosExel/', ['name of user', 'id of user']);
     $test->generateExel();  
-´´´
+```
 
 
 
