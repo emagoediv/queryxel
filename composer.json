@@ -1,0 +1,19 @@
+{
+  "name": "emagoediv/exelrel",
+  "description": "Gerador de relatório com consultas sql",
+  "minimum-stability": "beta",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Matheus Amorim",
+      "email": "emagoedivplay@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "exelrel\\" : "exelRel/"
+    }
+  },
+  "require": {
+  }
+}
